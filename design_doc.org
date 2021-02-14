@@ -1,0 +1,32 @@
+* URL Shortener Design Document
+
+** Context and scope
+   Team: Alexander, Yaroslav.
+   Scope: University assignment.
+   Project: URL shortener service
+   
+   The service will allow users to create shorter links and use them instead of original ones. After link was created, anyone can use it through this service.
+   Because this is a university assignment, service will not exhibit any complex behaviour and instead will do the bare minimum, namely: registration, authentication,
+   creation of short links, redirection to the original links, function as a storage for links.
+
+** Goals and non-goals
+*** Goals
+    - User registration
+    - Basic user authentication
+    - Shortened URL's storage
+    - Creation and deletion of shortened URL's
+    - Redirection to the original URL using shortened version
+*** Non-goals
+    - Complex user actions(user data management, password changing, etc...)
+    - UI/GUI/TUI/CLI
+
+** Architecture and Design
+
+*** System-context-diagram
+   =here must be the link to the diagram=
+
+*** API
+   =here must be the API specification=
+    
+*** Data Storage
+   =here must be the DB lib name and data format=
