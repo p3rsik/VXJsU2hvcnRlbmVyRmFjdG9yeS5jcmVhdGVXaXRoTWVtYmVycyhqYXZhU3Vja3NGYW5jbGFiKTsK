@@ -19,11 +19,21 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/githubuser/kek#readme>
 
 dependencies:
-- acid-state
 - base >= 4.7 && < 5
-- mtl
+
+# Database specific packages
+- acid-state
 - red-black-tree
 - safecopy
+
+# API specific packages
+- servant
+- aeson
+- aeson-deriving
+- servant-flatten
+
+# Util
+- mtl
 - text
 
 default-extensions:
